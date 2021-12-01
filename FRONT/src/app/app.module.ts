@@ -22,12 +22,16 @@ import { IndexComponent } from "./components/views/home/index/index.component";
 import { CadastrarProdutoComponent } from "./components/views/produto/cadastrar-produto/cadastrar-produto.component";
 import { ListarProdutoComponent } from "./components/views/produto/listar-produto/listar-produto.component";
 import { CarrinhoComponent } from './components/views/home/carrinho/carrinho.component';
+import { CadastrarVendaComponent } from './components/views/venda/cadastrar-venda/cadastrar-venda.component';
+import { ListarVendaComponent } from './components/views/venda/listar-venda/listar-venda.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         ListarProdutoComponent,
         CadastrarProdutoComponent,
+        CadastrarVendaComponent,
+        ListarVendaComponent,
         TemplateComponent,
         IndexComponent,
         CarrinhoComponent,

@@ -1,3 +1,5 @@
+import { ListarVendaComponent } from './components/views/venda/listar-venda/listar-venda.component';
+import { CadastrarVendaComponent } from './components/views/venda/cadastrar-venda/cadastrar-venda.component';
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
 import { CarrinhoComponent } from "./components/views/home/carrinho/carrinho.component";
@@ -22,6 +24,14 @@ const routes: Routes = [
         path: "produto/cadastrar",
         component: CadastrarProdutoComponent,
     },
+    {
+        path: "venda/cadastrar",
+        component: CadastrarVendaComponent,
+    },
+    {
+        path: "venda/listar",
+        component: ListarVendaComponent,
+    }
 ];
 
 @NgModule({
